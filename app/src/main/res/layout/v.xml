@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical" >
+
+
+
+<LinearLayout
+    android:id="@+id/lvh"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+
+    android:scrollbars="horizontal"
+
+    android:background="#ffe6e6e6"
+
+    android:weightSum="9" >
+
+
+    <TextView
+
+        android:id="@+id/txtSN"
+
+        android:layout_width="20sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:gravity="left"
+
+        android:text="STUDENT NAME"
+
+        android:textColor="#000000"
+
+        android:textSize="13sp" />
+
+
+
+    <TextView
+
+        android:id="@+id/txtUID"
+
+        android:layout_width="20sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:gravity="left"
+
+        android:padding="3dp"
+
+        android:text="UNIQUE ID"
+
+        android:textColor="#000000"
+
+        android:textSize="13sp" />
+
+
+
+    <TextView
+
+        android:id="@+id/txtFN"
+
+        android:layout_width="20sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:gravity="left"
+
+        android:text="FATHERNAME"
+
+        android:padding="3dp"
+
+        android:textColor="#000000"
+
+        android:textSize="13sp" />
+
+    <TextView
+
+        android:id="@+id/txtSCHOOL"
+
+        android:layout_width="20sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:gravity="left"
+
+        android:text="SCHOOL"
+
+        android:textColor="#000000"
+
+        android:textSize="13sp" />
+
+
+
+    <TextView
+
+        android:id="@+id/txtDISTRICT"
+
+        android:layout_width="20sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:gravity="left"
+
+        android:padding="3dp"
+
+        android:text="DISTRICT"
+
+        android:textColor="#000000"
+
+        android:textSize="13sp" />
+
+
+
+    <TextView
+
+        android:id="@+id/txtDOB"
+
+        android:layout_width="20sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:gravity="left"
+
+        android:text="DOB"
+
+        android:padding="3dp"
+
+        android:textColor="#000000"
+
+        android:textSize="13sp" />
+
+    <TextView
+
+        android:id="@+id/txtCLASS"
+
+        android:layout_width="20sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:gravity="left"
+
+        android:text="CLASS "
+
+        android:textColor="#000000"
+
+        android:textSize="13sp" />
+
+
+
+    <TextView
+
+        android:id="@+id/txtSECTION"
+
+        android:layout_width="20sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:gravity="left"
+
+        android:padding="3dp"
+
+        android:text="SECTION"
+
+        android:textColor="#000000"
+
+        android:textSize="13sp" />
+
+
+
+    <TextView
+
+        android:id="@+id/txtMOBILE"
+
+        android:layout_width="20sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:gravity="left"
+
+        android:text="MOBILE"
+
+        android:padding="3dp"
+
+        android:textColor="#000000"
+
+        android:textSize="13sp" />
+
+
+</LinearLayout>
+
+
+
+    </LinearLayout>

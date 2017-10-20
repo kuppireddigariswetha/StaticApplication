@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health Unique Id * "
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentTop="true" />
+        <EditText
+            android:id="@+id/ename1"
+            android:inputType="textCapCharacters"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:padding="5dp"
+            android:background="@drawable/shapee"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ _1478956230"
+            android:layout_toRightOf="@+id/name"
+            android:layout_alignBottom="@+id/search"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/etext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:textColor="#000000"
+            />
+        <EditText
+            android:id="@+id/ename3"
+            android:padding="5dp"
+            android:layout_width="80dp"
+            android:inputType="number"
+            android:layout_height="35dp"
+            android:background="@drawable/shapee"
+            android:layout_toRightOf="@+id/name"
+            android:layout_alignBottom="@+id/search"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentTop="true"
+            />
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ename"
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/searchicon" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check the box if normal else describe abnormalities"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/neauo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neurologic"
+        android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/hn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H and N"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/ent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENT"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/lymph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lymphatic"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heart"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/longg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lungs"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/abd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abdomen"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/gen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="genetalia"
+            android:textColor="#000000" />
+        <CheckBox
+        android:onClick="SelectItem"
+        android:id="@+id/skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skin"
+        android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/py"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pyrexia"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/ur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URTI"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Injuries"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/ut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UTI"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/angular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Angular Stomatities"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/aphthous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aphthous Ulcers"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/glossit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Glossities"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/phary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pharyngitis"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ortho"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/neck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neck"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/shoulder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shoulders"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/arms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arms/Hands"
+            android:textColor="#000000" />
+
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/hips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hips"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/knees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Knees"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/feet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feet"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Postural"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/spinalno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No spinal abnormality"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/spinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spinal abnormality"
+            android:textColor="#000000" />
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/mild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mild"
+            android:textColor="#000000" />
+
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/marked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marked"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <CheckBox
+        android:onClick="SelectItem"
+        android:id="@+id/moderate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moderate"
+        android:textColor="#000000" />
+    <CheckBox
+        android:onClick="SelectItem"
+        android:id="@+id/rm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Referal Made"
+        android:textColor="#000000" />
+</LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/desc"
+        android:gravity="center"
+        android:text="Description  "
+        android:textSize="20dp"
+        android:layout_width="130dp"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:paddingTop="5dp"
+        android:id="@+id/edesc"
+        android:padding="5dp"
+        android:layout_below="@+id/epulse"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/shapee"
+        android:layout_toRightOf="@+id/desc" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/desc11"
+            android:gravity="center"
+            android:text="Advice   "
+            android:textSize="20dp"
+            android:layout_width="130dp"
+            android:layout_height="100dp" />
+
+        <EditText
+            android:paddingTop="5dp"
+            android:id="@+id/edesc11"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/shapee"
+            android:layout_toRightOf="@+id/desc11" />
+
+    </RelativeLayout>
+
+
+
+    <include layout="@layout/doctorscheckup1"/>
+
+</LinearLayout>

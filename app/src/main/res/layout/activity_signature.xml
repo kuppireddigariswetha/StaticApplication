@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:text="Get General physian Signature"
+        android:id="@+id/signature1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        </Button>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imagesign1"
+        />
+    <Button
+        android:text="Get Dentist Signature"
+        android:id="@+id/signature2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imagesign2"
+        />
+    <Button
+        android:text="Get Opthomologist Signature"
+        android:id="@+id/signature3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imagesign3"
+        />
+    <Button
+        android:text="Get Audiologist Signature"
+        android:id="@+id/signature4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imagesign4"
+        />
+    <Button
+        android:text="Get Principal/HS signature if any"
+        android:id="@+id/signature5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imagesign5"
+        />
+</LinearLayout>

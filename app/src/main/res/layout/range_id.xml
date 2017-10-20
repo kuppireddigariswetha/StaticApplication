@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Range "
+            android:id="@+id/textView8"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You need to choose a Range.Other wise it will not go to the next page"
+        android:textColor="#000000"
+        android:id="@+id/range1"
+        />
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/range2"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/range3">
+        </Spinner>
+        <Button
+            android:textColor="#faf7f7"
+            android:background="?attr/colorPrimary"
+            android:layout_width="200dp"
+            android:layout_toRightOf="@+id/range2"
+            android:text="create a new range"
+            android:layout_height="wrap_content"
+            android:id="@+id/range3"
+            />
+        <Button
+            android:visibility="gone"
+            android:textColor="#faf7f7"
+            android:background="?attr/colorPrimary"
+            android:layout_width="200dp"
+            android:layout_toRightOf="@+id/range2"
+            android:text="default settings"
+            android:layout_height="wrap_content"
+            android:id="@+id/range5"
+            />
+
+
+        <Button
+            android:layout_toRightOf="@+id/range3"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/range4"
+            android:layout_gravity="center"
+            android:textColor="#faf7f7"
+            android:background="?attr/colorPrimary"
+            android:layout_width="wrap_content"
+            android:text=" Okay "
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

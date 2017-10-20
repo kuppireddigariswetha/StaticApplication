@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/cb"
+            android:textColor="#000000"
+            android:padding="5dp"
+            android:text="Right  "
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:layout_toRightOf="@+id/cb"
+            android:id="@+id/rg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+            android:textColor="#000000"
+            android:id="@+id/cbrleft"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:checked="false" />
+            <RadioButton
+            android:textColor="#000000"
+            android:id="@+id/cbrright"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:text="No" />
+       </RadioGroup>
+        <TextView
+            android:layout_below="@+id/cb"
+            android:id="@+id/cb1"
+            android:textColor="#000000"
+            android:padding="5dp"
+            android:text="Left "
+            android:textSize="20dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:layout_toRightOf="@+id/cb1"
+            android:layout_below="@+id/cb"
+            android:id="@+id/rg2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/cblleft"
+                android:textColor="#000000"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/cblright"
+                android:textColor="#000000"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/desciptioncb"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="Description"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_below="@+id/cb1"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/refferalcb"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Referral Made"
+            android:layout_alignBottom="@+id/cbref"
+            android:layout_alignTop="@+id/cbref" />
+        <CheckBox
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/refferalcb"
+            android:id="@+id/cbref"
+            android:onClick="SelectItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/desciptioncb" />
+        <TextView
+            android:id="@+id/doctorsign"
+            android:layout_below="@+id/refferalcb"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="Doctor Name and Reg No"
+            android:textSize="20dp" />
+        <ImageView
+            android:id="@+id/imageii2"
+            android:layout_below="@+id/cbref"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@+id/doctorsign"
+            android:layout_toEndOf="@+id/doctorsign"
+            android:layout_alignBottom="@+id/doctorsign" />
+
+        <EditText
+            android:id="@+id/cbdesc"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:background="@drawable/shapee"
+            android:layout_alignRight="@+id/cbref"
+            android:layout_alignEnd="@+id/cbref"
+            android:layout_alignTop="@+id/desciptioncb"
+            android:layout_toRightOf="@+id/refferalcb"
+            android:layout_toEndOf="@+id/refferalcb" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#fafafa"
+        android:text="Auditory Screening"
+        android:textSize="20dp"/>
+<include layout="@layout/auditoryscreen"/>
+</LinearLayout>

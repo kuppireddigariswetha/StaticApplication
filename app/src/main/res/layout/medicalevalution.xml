@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+          <LinearLayout
+              android:id="@+id/melayout1"
+              android:visibility="gone"
+              android:orientation="horizontal"
+              android:weightSum="4.5"
+              android:layout_width="match_parent"
+              android:layout_height="76dp">
+              <ImageView
+
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/swlogo"
+                  />
+              <TextView
+                  android:gravity="center"
+                  android:layout_weight="2"
+                  android:id="@+id/panaceaschool"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:text="Panacea School Health"
+                  android:textSize="30dp"
+                  android:textColor="#000000"/>
+              <ImageView
+                  android:src="@drawable/sif"
+                  android:layout_weight="1"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent" />
+              <ImageView
+                  android:layout_weight="0.5"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/settingss"
+                  android:onClick="settings"
+                  />
+
+          </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/melayout2"
+                android:orientation="horizontal"
+                android:weightSum="4.5"
+                android:layout_width="match_parent"
+                android:layout_height="76dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tmlogo"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:id="@+id/panaceaschool2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Panacea School Health"
+                    android:textSize="30dp"
+                    android:textColor="#000000"/>
+                <ImageView
+                    android:src="@drawable/sif"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/settingss"
+                    android:onClick="settings"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/melayout3"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:weightSum="4.5"
+                android:layout_width="match_parent"
+                android:layout_height="76dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ttlogo"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:id="@+id/panaceaschool3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Panacea School Health"
+                    android:textSize="30dp"
+                    android:textColor="#000000"/>
+                <ImageView
+                    android:src="@drawable/sif"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/settingss"
+                    android:onClick="settings"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/melayout4"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:weightSum="4.5"
+                android:layout_width="match_parent"
+                android:layout_height="76dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/amaya"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:id="@+id/ams"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ameya Life School Health"
+                    android:textSize="30dp"
+                    android:textColor="#000000"/>
+                <ImageView
+                    android:src="@drawable/ame"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/settingss"
+                    android:onClick="settings"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+            <TextView
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Medical Evalution Form"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="#fafafa"
+                android:text="Health Unique Id"
+                android:textSize="20dp"/>
+
+            <include layout="@layout/personalinfo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="#fafafa"
+                android:text="Physical Exam"
+                android:textSize="20dp"/>
+
+            <include layout="@layout/physicalexam"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="#fafafa"
+                android:text="Doctor Check Up"
+                android:textSize="20dp"/>
+
+            <include layout="@layout/doctorcheckup"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="#fafafa"
+                android:text="Screenings"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detected-Myopia/Hypermetropia"
+                android:textSize="20dp"/>
+
+            <include layout="@layout/glasses"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="#fafafa"
+                android:text="Colour Blindness"
+                android:textSize="20dp"/>
+
+            <include layout="@layout/colorblindness"/>
+
+            <Button
+                android:id="@+id/assubmit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="submit"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

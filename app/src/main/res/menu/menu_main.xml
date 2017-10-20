@@ -1,0 +1,260 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.roja_pc.todoproject.TodoListActivity">
+    <item
+        android:id="@+id/add_sign"
+        android:icon="@drawable/sign"
+        android:orderInCategory="100"
+        android:title="@string/add_record"
+        app:showAsAction="always"/>
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            app:showAsAction="always"
+            android:id="@+id/edittt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </EditText>
+    </android.support.v7.widget.Toolbar>-->
+    <item
+        android:id="@+id/add_list"
+        android:icon="@drawable/list"
+        android:orderInCategory="100"
+        android:title="@string/add_record"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/add_rar"
+        android:icon="@drawable/rarr"
+        android:orderInCategory="100"
+        android:title="@string/add_record"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/add_record"
+        android:icon="@drawable/plus"
+        android:orderInCategory="100"
+        android:title="@string/add_record"
+        app:showAsAction="always"/>
+
+
+
+
+  <!--  <item
+        android:id="@+id/export_records"
+        android:icon="@drawable/export"
+        android:orderInCategory="100"
+        android:title="@string/export_records"
+        app:showAsAction="always"/>-->
+
+    <item
+        android:id="@+id/import_records"
+        android:icon="@drawable/upload"
+        android:orderInCategory="100"
+        android:title="@string/export_records"
+        app:showAsAction="always"/>
+
+</menu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

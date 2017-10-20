@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:id="@+id/height"
+        android:layout_below="@+id/name"
+        android:padding="5dp"
+        android:text="Height cms"
+        android:textSize="20dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_margin="5dp"
+        android:paddingTop="5dp"
+        android:padding="5dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:id="@+id/eheight"
+        android:layout_width="70dp"
+        android:nextFocusDown="@+id/eweight"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapee"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/height" />
+    <TextView
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:id="@+id/bmi"
+        android:layout_toRightOf="@+id/eheight"
+        android:padding="5dp"
+        android:text="BMI%"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:paddingTop="5dp"
+        android:padding="5dp"
+        android:id="@+id/ebmi"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapee"
+        android:layout_alignTop="@+id/bmi"
+        android:layout_alignLeft="@+id/epulse"
+        android:layout_alignStart="@+id/epulse" />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:id="@+id/weight"
+        android:layout_below="@+id/height"
+        android:padding="5dp"
+        android:text="Weight kgs"
+        android:textSize="20dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_margin="5dp"
+        android:paddingTop="5dp"
+        android:padding="5dp"
+        android:inputType="numberDecimal"
+        android:id="@+id/eweight"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:nextFocusDown="@+id/ebp"
+        android:layout_below="@+id/eheight"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapee"
+        android:layout_toRightOf="@+id/weight" />
+    <TextView
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:id="@+id/pulse"
+        android:layout_below="@+id/bmi"
+        android:layout_toRightOf="@id/eweight"
+        android:padding="5dp"
+        android:text="Pulse "
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:paddingTop="5dp"
+        android:padding="5dp"
+        android:inputType="number"
+        android:id="@+id/epulse"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapee"
+        android:layout_alignTop="@+id/pulse"
+        android:layout_toRightOf="@+id/pulse"
+        android:layout_toEndOf="@+id/pulse" />
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/bp"
+        android:padding="5dp"
+        android:text="B.P. "
+        android:textSize="20dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/weight" />
+    <EditText
+        android:paddingTop="5dp"
+        android:padding="5dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:id="@+id/ebp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapee"
+        android:layout_alignBottom="@+id/hb"
+        android:layout_toRightOf="@+id/bloodgroup"
+        android:layout_toEndOf="@+id/bloodgroup" />
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/hb"
+        android:layout_toRightOf="@+id/ebp"
+        android:padding="5dp"
+        android:text="H.B."
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/pulse"
+        android:layout_alignRight="@+id/bmi"
+        android:layout_alignEnd="@+id/bmi" />
+
+    <EditText
+        android:paddingTop="5dp"
+        android:padding="5dp"
+        android:id="@+id/ehb"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapee"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/pulse"
+        android:layout_toEndOf="@+id/pulse"
+        android:layout_alignTop="@+id/ebp"
+        android:layout_alignBottom="@+id/hb" />
+    <TextView
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:id="@+id/bloodgroup"
+        android:layout_below="@+id/bp"
+        android:padding="5dp"
+        android:text="BloodGroup  "
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_toRightOf="@+id/bloodgroup"
+        android:entries="@array/blood_array"
+        android:prompt="@string/country_prompt"
+        android:id="@+id/spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bloodgroup"
+        android:layout_alignBottom="@+id/bloodgroup"></Spinner>
+
+
+
+</RelativeLayout>

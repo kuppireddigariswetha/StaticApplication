@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:text="Right "
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_margin="5dp"
+        android:id="@+id/rg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:textColor="#000000"
+            android:id="@+id/asleft1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pass"
+            android:checked="false" />
+        <RadioButton
+            android:textColor="#000000"
+            android:id="@+id/asright1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fail" />
+    </RadioGroup>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:text="Left   "
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/rg4"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/asleft2"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pass "
+            android:checked="false" />
+        <RadioButton
+            android:id="@+id/asright2"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fail" />
+    </RadioGroup>
+    </LinearLayout>
+    <TextView
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speech Screening"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal"/>
+
+        <CheckBox
+            android:id="@+id/delay"
+            android:onClick="SelectItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delay"/>
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/misarti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misarticulation"/>
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voice"/>
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/fluency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fluency"/>
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/flue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tongue Tie"/>
+
+        </LinearLayout>
+
+    <CheckBox
+        android:onClick="SelectItem"
+        android:id="@+id/stam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stammering"/>
+
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D D and disability"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/ld"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language Delay"/>
+
+        <CheckBox
+            android:onClick="SelectItem"
+            android:id="@+id/bd"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Behaviour Disorder"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description     "
+            android:textSize="20dp"
+            android:textColor="#000000"
+            />
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/asdesc"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/shapee"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Referral Made"/>
+
+    <CheckBox
+        android:onClick="SelectItem"
+        android:id="@+id/asref"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yes"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="Doctor Name and Reg No"
+            android:textSize="18dp"
+            />
+        <ImageView
+            android:id="@+id/imageii3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+    <include layout="@layout/dentalcheck"/>
+
+
+
+</LinearLayout>
